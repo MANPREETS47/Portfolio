@@ -92,35 +92,46 @@ export function Contact() {
         >
           <form onSubmit={handleSubmit} className="space-y-4">
             <div className="space-y-2">
-              <label htmlFor="name" className="text-sm font-medium text-slate-300">Full Name</label>
-              <input
-                id="name"
-                type="text"
-                required
-                className="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-xl focus:outline-none focus:border-primary transition-colors text-white"
-                placeholder="John Doe"
-              />
-            </div>
-            <div className="space-y-2">
-              <label htmlFor="email" className="text-sm font-medium text-slate-300">Email Address</label>
-              <input
-                id="email"
-                type="email"
-                required
-                className="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-xl focus:outline-none focus:border-primary transition-colors text-white"
-                placeholder="john@example.com"
-              />
-            </div>
-            <div className="space-y-2">
-              <label htmlFor="message" className="text-sm font-medium text-slate-300">Your Message</label>
-              <textarea
-                id="message"
-                required
-                rows={4}
-                className="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-xl focus:outline-none focus:border-primary transition-colors text-white resize-none"
-                placeholder="How can I help you?"
-              />
-            </div>
+  <label htmlFor="name" className="text-sm font-medium text-slate-300">
+    Full Name
+  </label>
+  <input
+    id="name"
+    name="name"
+    type="text"
+    required
+    className="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-xl focus:outline-none focus:border-primary transition-colors text-white"
+    placeholder="John Doe"
+  />
+</div>
+
+<div className="space-y-2">
+  <label htmlFor="email" className="text-sm font-medium text-slate-300">
+    Email Address
+  </label>
+  <input
+    id="email"
+    name="email"
+    type="email"
+    required
+    className="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-xl focus:outline-none focus:border-primary transition-colors text-white"
+    placeholder="john@example.com"
+  />
+</div>
+
+<div className="space-y-2">
+  <label htmlFor="message" className="text-sm font-medium text-slate-300">
+    Your Message
+  </label>
+  <textarea
+    id="message"
+    name="message"
+    required
+    rows={4}
+    className="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-xl focus:outline-none focus:border-primary transition-colors text-white resize-none"
+    placeholder="How can I help you?"
+  />
+</div>
 
             <button
               type="submit"
