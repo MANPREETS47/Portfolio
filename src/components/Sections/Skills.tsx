@@ -7,7 +7,7 @@ const skillCategories = [
   {
     title: "Full-Stack JS",
     icon: <Layout className="text-primary" />,
-    skills: ["React", "Next.js", "TypeScript", "Node.js", "Redux", "Socket.io"],
+    skills: ["React", "Next.js", "TypeScript", "Node.js", "React-Native", "Redux"],
   },
   {
     title: "Backend & Systems",
@@ -17,7 +17,7 @@ const skillCategories = [
   {
     title: "AI & Data Science",
     icon: <Cpu className="text-primary" />,
-    skills: ["Python", "TensorFlow", "Keras", "LangChain", "HuggingFace", "OpenCV"],
+    skills: ["Python", "TensorFlow", "Keras", "LangChain", "LangGraph", "HuggingFace", "OpenCV"],
   },
   {
     title: "Databases & Cloud",
