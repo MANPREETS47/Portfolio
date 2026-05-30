@@ -34,7 +34,7 @@ const projects = [
     title: "NoteWise",
     description: "NoteWise is a full-stack note-taking application that enables users to create, read, update, and delete notes with ease.",
     tags: ["JavaScript", "React", "AI", "Nodejs"],
-    github: "https://github.com/MANPREETS47",
+    github: "https://github.com/MANPREETS47/NoteWise",
     icon: <Cpu className="text-secondary w-8 h-8" />,
     image: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&q=80&w=800",
   },
