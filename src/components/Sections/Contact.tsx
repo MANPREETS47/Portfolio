@@ -59,7 +59,7 @@ export function Contact() {
               </div>
               <div>
                 <p className="text-sm text-slate-500 uppercase tracking-widest font-bold">Email</p>
-                <p className="text-lg">manpreetsingh@example.com</p>
+                <p className="text-lg">manpreetsinghms1080@gmail.com</p>
               </div>
             </div>
 
@@ -69,7 +69,7 @@ export function Contact() {
               </div>
               <div>
                 <p className="text-sm text-slate-500 uppercase tracking-widest font-bold">Location</p>
-                <p className="text-lg">Punjab, India</p>
+                <p className="text-lg">Delhi, India</p>
               </div>
             </div>
           </div>
