@@ -10,7 +10,7 @@
 [![GSAP](https://img.shields.io/badge/GSAP-Animations-88CE02?style=for-the-badge&logo=greensock)](https://gsap.com/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-CSS-06B6D4?style=for-the-badge&logo=tailwindcss)](https://tailwindcss.com/)
 
-**Live Site → [manpreetsingh.dev](https://manpreetsingh.dev)** *(coming soon)*
+**Live Site → [manpreetsingh.dev](https://manpreets.dev)
 
 </div>
 
